@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99b0de20-a728-46c1-b2c9-5a455874d42a" name="Changes" comment="First Commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="8d432c87-2348-4779-8bcc-39a844b2289a" />
+  </component>
+  <component name="ProjectId" id="2lC5ClEHxW6G4cDRho7VtbSln4s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Thazeem/Pycharm Projects/ahaliaCodeCraftersCodingClub",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Thazeem\Pycharm Projects\ahaliaCodeCraftersCodingClub" />
+      <recent name="C:\Thazeem\Pycharm Projects\ahaliaCodeCraftersCodingClub\static\styles" />
+      <recent name="C:\Thazeem\Pycharm Projects\ahaliaCodeCraftersCodingClub\templates" />
+      <recent name="E:\Thazeem\Pycharm Projects\ahaliaCodeCraftersCodingClub\static\pictures" />
+      <recent name="E:\Thazeem\Pycharm Projects\ahaliaCodeCraftersCodingClub\static\audio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Thazeem\Pycharm Projects\ahaliaCodeCraftersCodingClub\static\secret" />
+      <recent name="E:\Thazeem\Pycharm Projects\ahaliaCodeCraftersCodingClub\static\scripts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ahaliaCodeCraftersCodingClub" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ahaliaCodeCraftersCodingClub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ahaliaCodeCraftersCodingClub.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Thazeem\Pycharm Projects\ahaliaCodeCraftersCodingClub\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.12 (ahaliaCodeCraftersCodingClub)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99b0de20-a728-46c1-b2c9-5a455874d42a" name="Changes" comment="" />
+      <created>1724671092661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724671092661</updated>
+      <workItem from="1724671112148" duration="7249000" />
+      <workItem from="1724736436070" duration="9405000" />
+      <workItem from="1724763657597" duration="3006000" />
+      <workItem from="1724771769153" duration="3397000" />
+      <workItem from="1724825540887" duration="9478000" />
+      <workItem from="1724911590416" duration="7783000" />
+      <workItem from="1724938037386" duration="4501000" />
+      <workItem from="1724951687347" duration="2092000" />
+      <workItem from="1725199466155" duration="383000" />
+      <workItem from="1725199872139" duration="10992000" />
+      <workItem from="1725287429194" duration="9664000" />
+      <workItem from="1725369706865" duration="9344000" />
+      <workItem from="1725454689295" duration="13229000" />
+      <workItem from="1725544062416" duration="5032000" />
+      <workItem from="1725549273497" duration="2037000" />
+      <workItem from="1725555721155" duration="2303000" />
+      <workItem from="1725558301244" duration="1967000" />
+      <workItem from="1725614305278" duration="4834000" />
+      <workItem from="1725620953055" duration="5432000" />
+      <workItem from="1725631591504" duration="2670000" />
+      <workItem from="1725688202806" duration="7858000" />
+      <workItem from="1725731199162" duration="2218000" />
+      <workItem from="1725799163658" duration="3026000" />
+      <workItem from="1725803190115" duration="1639000" />
+      <workItem from="1725804905407" duration="571000" />
+      <workItem from="1725805487894" duration="259000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1725807791484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725807791484</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1725807945245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725807945245</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
+</project>

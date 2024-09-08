@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="">Code Crafters</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/signup">Sign Up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/signin">Sign In</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown transparent">
+                <a href="#" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    <img src="{{ pfp }}" alt="" width="50" height="50" class="pfp">
+                </a>
+                <div class="dropdown-menu dropdown-menu-end animate slideIn bg-dark white-im-text"
+                     aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item bg-dark white-im-text" href="/editprofile/">Edit Profile</a>
+                    <a class="dropdown-item bg-dark white-im-text" href="#">Stats</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>

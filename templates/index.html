@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Code Crafters Coding Club</title>
+    {% include "head.html" %}
+</head>
+<body>
+{% include "navbar.html" %}
+{% load static %}
+<div class="img-container body">
+    <img src="{% static "icons/coding logo.png" %}" alt="LOGO" class="main-logo">
+    <p class="CodeClub" id="Logo-Line">Coding Club</p>
+    <img src="{% static "GIFs/Cursor Picture.gif" %}" alt="Blinking Cursor" class="blinking-cursor">
+</div>
+<div class="slide">
+    <h1 class="description-title" id="code-crafters">Code Crafters</h1>
+    <div class="information right" id="technocratz-description">
+        <p class="information-description">
+            Code Crafter is the official coding club and the premier coding community in our department, managed
+            by
+            the
+            Computer
+            Science Department association, Technocratz (2024-2025). We are dedicated to empowering students
+            through
+            competitive
+            programming, collaboration, and innovation.
+            Whether you're a beginner eager to learn the basics or an experienced coder looking to sharpen your
+            skills,
+            our
+            club
+            provides a collaborative and competitive environment to help you achieve your goals.
+        </p>
+    </div>
+
+    {#    <img src="{% static "pictures/Technocratz.png" %}" alt="Technocratz" class="tech-logo">#}
+</div>
+
+
+{#Scripts#}
+
+{% include "scripts.html" %}
+</body>
+</html>

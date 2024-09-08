@@ -1,0 +1,186 @@
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+}
+
+#icon-pic {
+    width: 400px;
+    height: 400px;
+}
+
+.steps {
+    padding-bottom: 30px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 300px;
+}
+
+::selection {
+    background: bisque;
+}
+
+.top {
+    border-bottom-left-radius: 0;
+!important;
+    border-bottom-right-radius: 0;
+}
+
+.middle {
+    border-radius: 0;
+!important;
+}
+
+.bottom {
+    border-top-left-radius: 0;
+!important;
+    border-top-right-radius: 0;
+}
+
+.sign-title {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.sign-alternate {
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .animate {
+        animation-duration: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideIn {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+
+    0% {
+        -webkit-transform: translateY(1rem);
+        -webkit-opacity: 0;
+    }
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+.white-im-text {
+    color: lightgrey;
+!important;
+}
+
+.white-im-text:hover {
+!important;
+    color: white;
+    -webkit-transition: color 0.5s ease;
+}
+
+.bg-black-color {
+    background: #2e3030;
+!important;
+}
+
+.pfp {
+    border-radius: 50px;
+    border: 5px solid #555;
+}
+.pfp:hover {
+    border: 5px solid lightblue;
+    transition: border 0.5s ease;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.preview {
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    border: 1px solid red;
+}
+
+.modal-lg {
+    max-width: 1000px !important;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease;
+    width: 100%;
+}
+
+.image_area:hover .overlay {
+    height: 50%;
+    cursor: pointer;
+}
+
+.text {
+    color: #333;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.account-form{
+    margin-top: 1.5%;
+}

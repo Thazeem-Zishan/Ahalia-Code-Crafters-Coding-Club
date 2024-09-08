@@ -1,0 +1,224 @@
+h1 {
+    font-family: Montserrat, sans-serif;
+    color: white;
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+.body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+}
+
+body {
+    background: #242626;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background: transparent;
+}
+
+.nav-link {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: Ubuntu, cursive;
+    font-size: 40px;
+    opacity: 70%;
+}
+
+.main-logo {
+    /*width: 22.20238095238095vw;*/
+    /*height: 5vw;*/
+    /*width: 6.251396648044693vw;*/
+    /*height: 10vw;*/
+    width: 62.51396648044693vw;
+    height: 10vw;
+}
+
+.img-container {
+    margin-top: 25vh;
+    text-align: center;
+    height: 432px;
+    position: relative;
+}
+
+.CodeClub {
+    color: white;
+    position: relative;
+    /*display: inline-block;*/
+    padding: 0;
+    text-align: left;
+    bottom: 0;
+    font-family: Ubuntu, sans-serif;
+    left: 38vw;
+    width: 40vw;
+    font-size: 5vw;
+}
+
+.blinking-cursor {
+    position: absolute;
+    display: inline-block;
+    padding: 0;
+    left: 40vw;
+    text-align: left;
+    top: 13.5vw;
+    height: 4vw;
+    width: 1vw;
+    rotate: 270deg;
+}
+
+.information {
+    box-shadow: 2px 2px 5px #000000;
+    float: right;
+    text-align: justify;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: visible;
+    left: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #2b2b2c;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 42vw;
+    height: 50vh;
+    rotate: 0deg;
+}
+
+.information-description {
+    position: absolute;
+    text-wrap: none;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.3rem;
+    left: 80vw;
+    width: 76.2vw;
+    line-height: 40px;
+    margin: 0 20px 0 20px;
+}
+
+@keyframes tech-description-anim {
+    from {
+        opacity: 0;
+        rotate: 180deg;
+        margin-left: 42vw;
+        left: 100%
+    }
+    to {
+        opacity: 1;
+        rotate: 0deg;
+        margin: 0;
+        left: calc(100% - 42vw)
+    }
+}
+
+@keyframes tech-title-anim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes tech-title-disappear-anim {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.information.in-view {
+    animation: tech-description-anim 2s ease-in-out;
+    align-items: center;
+    opacity: 1;
+}
+
+.description-title.in-view {
+    animation: tech-title-anim 1s ease-in-out;
+    align-items: center;
+    opacity: 1;
+}
+
+.tech-logo {
+    float: left;
+    width: 30vw;
+}
+
+.slide {
+    margin-top: calc(300px);
+    margin-bottom: 1000px;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 100%;
+    display: flex;
+    width: 100vw;
+    height: 50vw;
+    flex-direction: row;
+    align-items: center;
+}
+
+.description-title {
+    position: relative;
+    bottom: 32vh;
+    text-align: center;
+    left: 32vw;
+    opacity: 0;
+}
+
+.description-title.not-in-view {
+    animation: tech-title-disappear-anim 1s ease-in-out;
+    opacity: 0;
+}
+
+.question {
+    background: green;
+    height: 50vh;
+    margin-left: 10vw;
+    width: 80vw;
+    border-radius: 5px;
+}
+
+.options {
+    background: #2b2b2c;
+    box-shadow: 2px 2px 5px black;
+    height: 12.5vh;
+    width: 39vw;
+    margin-left: 2vw;
+    border-radius: 5px;
+
+}
+
+.margin-left {
+    margin-left: 10vw;
+}
+
+.margin-right {
+    margin-right: 10vw;
+}
+

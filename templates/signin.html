@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In!</title>
+    {% include "head.html" %}
+    <link rel="stylesheet" href="{% static "styles/style.css" %}">
+</head>
+<body>
+
+{% include "navbar.html" %}
+<section class="account-form">
+{#    <div class="container-fluid" style="margin-bottom: 0">#}
+        <div class="container d-flex justify-content-center">
+            <form action="." method="post">
+                {% csrf_token %}
+                <h1 class="mb-3 sign-title">{{ message }}</h1>
+                <div class="form-floating">
+                    <input type="email" class="form-control top" name="email" placeholder="Email" id="email">
+                    <label for="email">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control bottom" id="password" name="password"
+                           placeholder="Password">
+                    <label for="password">Password</label>
+                </div>
+                <div class="col-auto mb-3">
+                    <button type="submit" class="btn btn-danger w-100" id="signUp">Sign In</button>
+                </div>
+                <h6 class="sign-alternate">Don't have an account? <a href="/signup/" class="link">Register Now!</a></h6>
+                <br>
+            </form>
+        </div>
+{#    </div>#}
+</section>
+</body>
+</html>
